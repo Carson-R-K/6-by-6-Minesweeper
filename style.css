@@ -1,0 +1,18 @@
+/* Full screen black background with centered canvas */
+body {
+  margin: 0;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Canvas with blue background and proper scaling */
+canvas {
+  background: #3498db;
+  display: block;
+  max-width: 90vw;
+  max-height: 90vh;
+  image-rendering: pixelated; /* sharp edges for tiles */
+}

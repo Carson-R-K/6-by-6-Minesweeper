@@ -1,0 +1,15 @@
+{
+  "name": "Minesweeper 6x6",
+  "short_name": "Minesweeper",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#3498db",
+  "theme_color": "#3498db",
+  "icons": [
+    {
+      "src": "icon-MS6.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
